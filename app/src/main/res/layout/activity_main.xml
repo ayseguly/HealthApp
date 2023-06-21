@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:background="@drawable/bg1"
+
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonsField"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+       >
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RegisterButton"
+        android:text="Register"
+        android:onClick="Register"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:textColor="#89288b"
+        android:backgroundTint="#eeffa4"
+        ></Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LoginButton"
+        android:text="Login"
+        android:onClick="Login"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:textColor="#89288b"
+        android:backgroundTint="#eeffa4"
+        ></Button>
+
+
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="517dp"
+        android:ems="10"
+        android:hint="e-mail"
+        android:inputType="textEmailAddress"
+         />
+
+
+    <EditText
+        android:id="@+id/Password"
+        android:inputType="textPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="451dp"
+        android:ems="10"
+        android:hint="password" />
+
+    <Button
+        android:id="@+id/RegisterOl1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="338dp"
+        android:onClick="RegisterOl"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/LoginOl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="338dp"
+        android:onClick="LoginOl"
+        android:text="Logın" />
+
+    <ImageView
+        android:id="@+id/geri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="313dp"
+        android:layout_marginBottom="649dp"
+        android:onClick="Back"
+        android:src="@drawable/backicon" />
+
+
+</RelativeLayout>

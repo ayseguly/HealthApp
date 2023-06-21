@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SudokuPackage.Sudokulv3">
+
+    <TableLayout
+        android:id="@+id/tableLayoutlv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/sudoku3lv11"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#020202" />
+
+            <EditText
+                android:id="@+id/sudoku3lv12"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textColor="#020202" />
+
+            <EditText
+                android:id="@+id/sudoku3lv13"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#020202" />
+
+            <EditText
+                android:id="@+id/sudoku3lv14"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#020202" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/sudoku3lv21"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#020202" />
+
+            <EditText
+                android:id="@+id/sudoku3lv22"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:text="2"
+                android:enabled="false"
+                android:inputType="none"
+                android:textAlignment="center"
+                android:textColor="#020202" />
+
+            <EditText
+                android:id="@+id/sudoku3lv23"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:text="4"
+                android:enabled="false"
+                android:inputType="none"                android:textAlignment="center"
+                android:textColor="#020202" />
+
+            <EditText
+                android:id="@+id/sudoku3lv24"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:text="3"
+                android:enabled="false"
+                android:inputType="none"
+                android:textAlignment="center"
+                android:textColor="#020202" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/sudoku3lv31"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:text=""
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#020202" />
+
+            <EditText
+                android:id="@+id/sudoku3lv32"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#020202" />
+
+            <EditText
+                android:id="@+id/sudoku3lv33"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:text="1"
+                android:enabled="false"
+                android:inputType="none"
+                android:textAlignment="center"
+                android:textColor="#020202" />
+
+            <EditText
+                android:id="@+id/sudoku3lv34"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#020202" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/sudoku3lv41"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#020202" />
+
+            <EditText
+                android:id="@+id/sudoku3lv42"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#020202" />
+
+            <EditText
+                android:id="@+id/sudoku3lv43"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#020202" />
+
+            <EditText
+                android:id="@+id/sudoku3lv44"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="none"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#020202" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/sudokubutton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:onClick="sudokudevam3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63" />
+
+    <TextView
+        android:id="@+id/level3"
+        android:layout_width="122dp"
+        android:layout_height="33dp"
+        android:text="Sudoku Level 3"
+        android:textAlignment="center"
+        android:textColor="#F06292"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
