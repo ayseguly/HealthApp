@@ -14,8 +14,8 @@ Determining whether or not there is a connection between the program and a test 
  Here some screenshots from the application interface
 
  <img width="190" alt="image" src="https://github.com/ayseguly/HealthApp/assets/45787267/c03e7ba6-4f8b-48dd-9d88-47bba186658b">
- <img width="212" alt="image" src="https://github.com/ayseguly/HealthApp/assets/45787267/8f7620eb-0e7f-455c-8ae4-dac0cda45ad7">
-<img width="187" alt="image" src="https://github.com/ayseguly/HealthApp/assets/45787267/306826f7-62a3-424b-bfde-ad8367c6530d">
+ <img width="192" alt="image" src="https://github.com/ayseguly/HealthApp/assets/45787267/e181d951-743b-453f-9564-a76ebb8e697b">
+ <img width="187" alt="image" src="https://github.com/ayseguly/HealthApp/assets/45787267/306826f7-62a3-424b-bfde-ad8367c6530d">
  
  The user may try out actions that he wishes to solve by playing games on this screen, which are shown on the screen. By pressing the buttons that access the seven different activity tabs, the user has the ability to begin any activity. 
 
