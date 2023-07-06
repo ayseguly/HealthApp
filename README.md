@@ -15,10 +15,16 @@ Determining whether or not there is a connection between the program and a test 
 
  <img width="190" alt="image" src="https://github.com/ayseguly/HealthApp/assets/45787267/c03e7ba6-4f8b-48dd-9d88-47bba186658b">
  <img width="212" alt="image" src="https://github.com/ayseguly/HealthApp/assets/45787267/8f7620eb-0e7f-455c-8ae4-dac0cda45ad7">
+
+ 
  The user may try out actions that he wishes to solve by playing games on this screen, which are shown on the screen. By pressing the buttons that access the seven different activity tabs, the user has the ability to begin any activity. 
+
+ 
  <img width="194" alt="image" src="https://github.com/ayseguly/HealthApp/assets/45787267/6d3c6e0a-fbf5-4061-b36c-b5301888ff0b">
 
- Dooctor interfa
+ Dooctor interface
+
+ 
  <img width="173" alt="image" src="https://github.com/ayseguly/HealthApp/assets/45787267/71c46867-f1c5-4dc2-9342-1f7aafbe257d">
 
 
